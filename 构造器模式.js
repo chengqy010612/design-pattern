@@ -20,4 +20,4 @@ class  Person{
 }
 
 let person = new Create('cqy',19)
-console.log(person);
+// console.log(person);

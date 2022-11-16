@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .title.active {
+            color: red;
+        }
+
+        .content li {
+            display: none;
+        }
+
+        .content li.active {
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
-    <ul class="title">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-    </ul>
-    <ul class="content">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-    </ul>
+    <div class="container">
+        <ul class="title">
+            <li class="active">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+        <ul class="content">
+            <li class="active">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
     <script src="./1.js"></script>
+    <script src="./原型tab.js"></script>
+    <script src="./工厂模式.js"></script>
+    <script src="./抽象工厂模式.js"></script>
     <script>
-        document.querySelector('')
     </script>
 </body>
+
 </html>
